@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 100px 5px 100px;
+}
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    
+}
+.links {
+    font-size: 18px;
+    color: #e5e7eb;
+    display:flex;
+    justify-content: end;
+    justify-content: space-between;  
+}
+.L1 {
+    padding-right: 20px;
+}
+.L2 {
+    padding-right: 20px;
+}
+
+.body {
+    display: flex;
+}
