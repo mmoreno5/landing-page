@@ -5,25 +5,147 @@
     align-items: center;
     padding: 5px 100px 5px 100px;
 }
-.logo {
+    .logo {
     font-size: 24px;
     color: #f9faf8;
     
-}
-.links {
-    font-size: 18px;
-    color: #e5e7eb;
-    display:flex;
-    justify-content: end;
-    justify-content: space-between;  
-}
-.L1 {
-    padding-right: 20px;
-}
-.L2 {
-    padding-right: 20px;
-}
+    }
+    .links {
+        font-size: 18px;
+        color: #e5e7eb;
+        display:flex;
+        justify-content: end;
+        justify-content: space-between;  
+    }
+        .L1 {
+            padding-right: 20px;
+        }
+        .L2 {
+            padding-right: 20px;
+        }
 
-.body {
+
+.hero {
+    background-color: #1F2937;
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px 100px 50px 50px
+
+}
+    .H1 {
+        width: 350px;
+    }
+        .title {
+    
+            color:#f9faf8 ;
+            font-size: 48px;
+            font-weight: bolder;
+    
+        }
+        .subtext {
+            font-size: 18px;
+            color: #e5e7eb;
+        }
+        .button {
+            background-color: #3882f6;
+            width: 60px;
+            border-radius: 3px;
+            justify-content: center;
+            align-items: center;
+        }
+            .button-text {
+                text-align: center;
+                font-size: 13px;
+                color:#e5e7eb ;
+            }
+    .H2 {
+        width: 350px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        background-color: lightslategray;
+    }
+.info{
+}    
+    .randomInfo {
+        display: flex;
+        justify-content: center;
+        font-size: 36px;
+        color: #1F2937;
+        font-weight: bolder;
+        padding: 20px 0px 20px 0px;
+    }
+.boxes {
+   display: flex;
+   justify-content: center; 
+   justify-content: space-around;
+   padding-left: 150px;
+   padding-right: 150px;
+   padding-bottom: 7px;
+}    
+    .B1 {
+        width: 110px;
+        height: 110px;
+        outline: 2px solid #3882f6;
+        border-radius: 3px;
+    }
+    .B2{
+        width: 110px;
+        height: 110px;
+        outline: 2px solid #3882f6;
+        border-radius: 3px;
+    }
+    .B3 {
+        width: 110px;
+        height: 110px;
+        outline: 2px solid #3882f6;
+        border-radius: 3px;
+    }
+    .B4{
+        width: 110px;
+        height: 110px;
+        outline: 2px solid #3882f6;
+        border-radius: 3px;
+    }
+.boxInfo {
+    display: flex;
+    justify-content: center; 
+    justify-content: space-around;
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align: center; 
+    padding-bottom: 50px;
+}
+    .info1 {
+        width: 110px;
+    }
+    .info2{
+        width: 110px;
+    }
+    .info3{
+        width: 110px;
+    }
+    .info4{
+        width: 110px;
+    }
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px 155px 0px 155px;
+    font-style: italic;
+    font: 36px;
+    background-color: #e5e7eb;
+}
+.thor {
+    text-align: right;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding-bottom: 50px;
+    font-weight: bold;
+    padding-right: 155px;
 }
